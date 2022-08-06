@@ -117,4 +117,44 @@ body {
     margin-left: 5%;
   } 
 
+   .card textarea {
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #4c882a;
+  
+    color: #e2f798;
+    height: 70%;
+  }
+
+  .card textarea:disabled {
+    background-color: rgb(185, 78, 29);
+  }
+
+.card .btns button {
+    border-radius: 20%;
+    border: none;
+    margin: 0 0.6rem;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #212aa5;
+    background-color: transparent;
+  }
+  
+  .card .btns button:focus {
+    outline: none;
+  }
+
+.completed {
+    /* position: absolute; */
+    right: 0.3rem;
+    top: 0.3rem;
+    background-color: #c7eb74;
+    border: 2px solid #272727;
+    color: #000103;
+  
+    font-size: 0.8rem;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+  }
   
